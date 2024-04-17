@@ -64,6 +64,7 @@
 
 html {
     height: 100%;
+    font-family: "Playpan Sans";
 }
 
 body {
@@ -95,7 +96,6 @@ body {
 #blogs {
     transition: all 200ms;
     padding: 10px;
-    font-family: Comic Sans MS, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -110,7 +110,6 @@ body {
 }
 
 #content {
-    font-family: Trebuchet MS, Helvetica, sans-serif;
     padding-bottom: 60px;
 }
 
@@ -155,7 +154,7 @@ body {
     margin: 0px;
 }
 
-#post-date{
+#post-date {
     text-align: center;
     font-size: 1.3rem;
 }
@@ -174,6 +173,7 @@ body {
     padding: 10px;
     font-size: 1.3rem;
 }
+
 #date {
     font-size: 1.2rem;
 }
@@ -206,7 +206,19 @@ footer {
     .gjs-grid-row {
         flex-direction: column;
     }
-    #blogs{
+    .gjs-divider{
+        height: 4px;
+    }
+    #blogs {
+        font-size: 4rem;
+    }
+    #title{
         font-size: 3rem;
+    }
+    #date{
+        font-size: 2rem;
+    }
+    footer{
+       font-size: 2rem;
     }
 }

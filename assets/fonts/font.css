@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "Playpan Sans";
+    src: url("PlaypenSans-Regular.woff2") format("woff2"),
+    url("PlaypenSans-Regular.ttf") format("truetype");
+}
