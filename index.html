@@ -1,0 +1,15 @@
+---
+layout: default
+title: Home
+---
+{% for post in site.posts %}
+
+<a href="{{post.url}}" class="gjs-link-box blog-outer blog">
+    <div class="gjs-grid-column" id="box-blog">
+        <div id="title">{{post.title}}</div>
+        <div id="date">{{post.date | date: "%b %-d %Y"}}</div>
+    </div>
+
+</a>
+
+{% endfor %}

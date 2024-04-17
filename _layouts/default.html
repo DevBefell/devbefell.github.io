@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/codehighlight.css">
+</head>
+<body id="body-id">
+<header class="gjs-grid-column">
+    {% include navigation.html %}
+</header>
+<div class="gjs-divider divider"></div>
+<section id="content" class="gjs-section">
+    <div class="gjs-container">
+        {{ content }}
+    </div>
+</section>
+<footer>
+        <div class="gjs-divider divider"></div>
+        <div class="gjs-grid-column">
+            <div id="made-by">Made by <a href="https://github.com/DevBefell" target="_blank" class="gjs-link">Befell</a>.
+                Powered by <a href="https://jekyllrb.com/" target="_blank" class="gjs-link">Jeykll</a>, <a
+                        href="https://grapesjs.com/" target="_blank" class="gjs-link">GrapeJS</a>
+            </div>
+            <div id="powered-by">
+
+            </div>
+        </div>
+</footer>
+</body>
