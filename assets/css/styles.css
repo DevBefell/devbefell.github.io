@@ -95,7 +95,7 @@ body {
 #blogs {
     transition: all 200ms;
     padding: 10px;
-    font-family: Comic Sans MS, cursive, sans-serif;
+    font-family: Comic Sans MS, sans-serif;
     font-size: 1.5rem;
 }
 
@@ -206,12 +206,7 @@ footer {
     .gjs-grid-row {
         flex-direction: column;
     }
-}
-
-@media (max-width: 768px) {
-    #content-container {
-        flex: 0 0 auto;
+    #blogs{
+        font-size: 3rem;
     }
 }
-
-
